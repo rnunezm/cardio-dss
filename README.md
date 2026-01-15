@@ -42,19 +42,19 @@ cardio-dss/
 │  
 ├── Airflow/  
 │ └── dags/  
-│ └── cardio_etl_dag.py
-│
-├── streamlit_app/
-│ └── app.py/
-│
-├── data/
-│ └── raw/
-│ └── cardio_train.csv
-│
-├── requirements.txt
-│
-├── README.md
-
+│ └── cardio_etl_dag.py  
+│  
+├── streamlit_app/  
+│ └── app.py/  
+│  
+├── data/  
+│ └── raw/  
+│ └── cardio_train.csv  
+│  
+├── requirements.txt  
+│  
+├── README.md  
+  
 
 ---
 
