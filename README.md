@@ -40,17 +40,17 @@ Streamlit Dashboard (DSS Interface)
 
 cardio-dss/  
 │  
-├── Airflow/  
-│└── dags/
-│└── cardio_etl_dag.py/
-├── Streamlit_app/
-│└── app.py/
-├── data/
-│└── raw/
-│└── cardio_train.csv
-│
-├── requirements.txt
-│
+├── Airflow/
+│└── dags/  
+│└── cardio_etl_dag.py/  
+├── Streamlit_app/  
+│└── app.py/  
+├── data/  
+│└── raw/  
+│└── cardio_train.csv  
+│  
+├── requirements.txt  
+│  
 ├── README.md
 
 ---
