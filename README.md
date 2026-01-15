@@ -12,12 +12,12 @@ The goal is to assist healthcare decision-making by identifying patients at risk
 
 ## 2. System Architecture
 
-CSV (Local File)
-↓
-Apache Airflow (ETL + Decision Engine)
-↓
+CSV (Local File)  
+↓  
+Apache Airflow (ETL + Decision Engine)  
+↓  
 PostgreSQL Database
-↓
+↓  
 Streamlit Dashboard (DSS Interface)
 
 ---
