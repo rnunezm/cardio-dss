@@ -111,6 +111,8 @@ pip install -r requirements.txt
 
 CREATE DATABASE cardio;
 
+---
+
 ## 8. Running the Project
 
 ### 8.1 Start Airflow
@@ -136,6 +138,8 @@ streamlit run app.py
 
 http://localhost:8501
 
+---
+
 ## 9. Machine Learning Model
 
 Algorithm: Logistic Regression
@@ -146,10 +150,14 @@ Height
 Weight
 Purpose: Cardiovascular risk prediction for decision support
 
+---
+
 ## 10. Disclaimer
 
 This system is for academic and educational purposes only.
 It does not replace medical diagnosis or professional healthcare advice.
+
+---
 
 ## 11. Academic Context
 
@@ -160,6 +168,8 @@ ETL pipelines
 Predictive analytics
 Explainable decision-making
 End-to-end DSS development
+
+---
 
 ## 12. Future Improvements
 
