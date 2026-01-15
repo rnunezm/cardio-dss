@@ -39,7 +39,7 @@ Streamlit Dashboard (DSS Interface)
 ## 4. Project Structure
 
 cardio-dss/
-│
+│  
 ├── Airflow/
 │└── dags/
 │└── cardio_etl_dag.py/
