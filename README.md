@@ -38,20 +38,19 @@ Streamlit Dashboard (DSS Interface)
 
 ## 4. Project Structure
 
-cardio-dss/  
-│  
-│  
-├── Airflow/  
-│ └── dags/  
-│ └── cardio_etl_dag.py/  
-├── Streamlit_app/  
-│ └── app.py/  
-├── data/  
-│ └── raw/  
-│ └── cardio_train.csv  
-│  
-├── requirements.txt  
-│  
+cardio-dss/
+│
+├── Airflow/
+│└── dags/
+│└── cardio_etl_dag.py/
+├── Streamlit_app/
+│└── app.py/
+├── data/
+│└── raw/
+│└── cardio_train.csv
+│
+├── requirements.txt
+│
 ├── README.md
 
 ---
