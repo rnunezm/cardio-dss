@@ -16,7 +16,7 @@ CSV (Local File)
 ↓  
 Apache Airflow (ETL + Decision Engine)  
 ↓  
-PostgreSQL Database
+PostgreSQL Database  
 ↓  
 Streamlit Dashboard (DSS Interface)
 
