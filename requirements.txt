@@ -1,8 +1,9 @@
-pandas
-numpy
-scikit-learn
-sqlalchemy
-apache-airflow
-streamlit
-matplotlib
-seaborn
+apache-airflow==2.7.1
+pandas==2.1.1
+numpy==1.26.5
+sqlalchemy==2.1.2
+scikit-learn==1.3.1
+streamlit==1.26.0
+matplotlib==3.8.0
+plotly==6.2.2
+psycopg2-binary==2.9.9
