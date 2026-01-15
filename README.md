@@ -38,7 +38,7 @@ Streamlit Dashboard (DSS Interface)
 
 ## 4. Project Structure
 
-cardio-dss/
+cardio-dss/  
 │  
 ├── Airflow/  
 │└── dags/
