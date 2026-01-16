@@ -1,0 +1,22 @@
+[2026-01-16T00:13:44.933+0100] {processor.py:161} INFO - Started process (PID=55995) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-01-16T00:13:44.937+0100] {processor.py:830} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-01-16T00:13:44.938+0100] {logging_mixin.py:188} INFO - [2026-01-16T00:13:44.938+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-01-16T00:13:44.969+0100] {logging_mixin.py:188} INFO - [2026-01-16T00:13:44.964+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-01-16T00:13:44.969+0100] {logging_mixin.py:188} INFO - [2026-01-16T00:13:44.969+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-01-16T00:13:44.969+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-01-16T00:13:45.043+0100] {processor.py:183} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.110 seconds
+[2026-01-16T00:16:04.782+0100] {processor.py:161} INFO - Started process (PID=57248) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-01-16T00:16:04.787+0100] {processor.py:830} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-01-16T00:16:04.787+0100] {logging_mixin.py:188} INFO - [2026-01-16T00:16:04.787+0100] {dagbag.py:538} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-01-16T00:16:04.824+0100] {logging_mixin.py:188} INFO - [2026-01-16T00:16:04.818+0100] {example_local_kubernetes_executor.py:39} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 37, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-01-16T00:16:04.824+0100] {logging_mixin.py:188} INFO - [2026-01-16T00:16:04.824+0100] {example_local_kubernetes_executor.py:40} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-01-16T00:16:04.825+0100] {processor.py:842} WARNING - No viable dags retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-01-16T00:16:04.920+0100] {processor.py:183} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.138 seconds

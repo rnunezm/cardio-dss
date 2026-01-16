@@ -1,0 +1,12 @@
+[2026-01-16T03:53:36.961+0100] {processor.py:157} INFO - Started process (PID=47078) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-01-16T03:53:36.965+0100] {processor.py:829} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2026-01-16T03:53:36.967+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:36.966+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-01-16T03:53:37.008+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:37.008+0100] {example_python_operator.py:86} WARNING - The virtalenv_python example task requires virtualenv, please install it.
+[2026-01-16T03:53:37.013+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_python_operator']) retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py
+[2026-01-16T03:53:37.510+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:37.510+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:37.519+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:37.519+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:37.525+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:37.525+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:37.526+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:37.525+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-16T03:53:37.534+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:37.534+0100] {dag.py:2963} INFO - Creating ORM DAG for example_python_operator
+[2026-01-16T03:53:37.535+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:37.535+0100] {dag.py:3722} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2026-01-16T03:53:37.553+0100] {processor.py:179} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_python_operator.py took 0.592 seconds

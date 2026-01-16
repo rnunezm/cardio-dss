@@ -1,0 +1,11 @@
+[2026-01-16T03:52:56.416+0100] {processor.py:157} INFO - Started process (PID=47040) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-01-16T03:52:56.421+0100] {processor.py:829} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2026-01-16T03:52:56.422+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:52:56.422+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-01-16T03:52:56.471+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2026-01-16T03:52:56.997+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:52:56.997+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:52:57.009+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:52:57.009+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:52:57.015+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:52:57.015+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:52:57.016+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:52:57.016+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-16T03:52:57.026+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:52:57.026+0100] {dag.py:2963} INFO - Creating ORM DAG for example_trigger_target_dag
+[2026-01-16T03:52:57.027+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:52:57.027+0100] {dag.py:3722} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2026-01-16T03:52:57.041+0100] {processor.py:179} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.625 seconds

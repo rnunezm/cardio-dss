@@ -1,0 +1,11 @@
+[2026-01-16T03:53:34.171+0100] {processor.py:157} INFO - Started process (PID=47076) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-01-16T03:53:34.175+0100] {processor.py:829} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py for tasks to queue
+[2026-01-16T03:53:34.177+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:34.177+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-01-16T03:53:34.225+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensor_decorator']) retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py
+[2026-01-16T03:53:34.749+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:34.749+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:34.758+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:34.758+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:34.764+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:34.764+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:34.765+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:34.765+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-16T03:53:34.773+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:34.773+0100] {dag.py:2963} INFO - Creating ORM DAG for example_sensor_decorator
+[2026-01-16T03:53:34.773+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:34.773+0100] {dag.py:3722} INFO - Setting next_dagrun for example_sensor_decorator to None, run_after=None
+[2026-01-16T03:53:34.793+0100] {processor.py:179} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensor_decorator.py took 0.623 seconds

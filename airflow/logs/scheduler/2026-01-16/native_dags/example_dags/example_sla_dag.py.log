@@ -1,0 +1,11 @@
+[2026-01-16T03:53:13.187+0100] {processor.py:157} INFO - Started process (PID=47059) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-01-16T03:53:13.191+0100] {processor.py:829} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py for tasks to queue
+[2026-01-16T03:53:13.192+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:13.192+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-01-16T03:53:13.251+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sla_dag']) retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py
+[2026-01-16T03:53:14.074+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:14.073+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:14.088+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:14.088+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:14.096+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:14.095+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:14.096+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:14.096+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-16T03:53:14.106+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:14.105+0100] {dag.py:2963} INFO - Creating ORM DAG for example_sla_dag
+[2026-01-16T03:53:14.115+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:14.115+0100] {dag.py:3722} INFO - Setting next_dagrun for example_sla_dag to 2026-01-16T02:50:00+00:00, run_after=2026-01-16T02:52:00+00:00
+[2026-01-16T03:53:14.131+0100] {processor.py:179} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sla_dag.py took 0.945 seconds

@@ -1,0 +1,11 @@
+[2026-01-16T03:53:31.272+0100] {processor.py:157} INFO - Started process (PID=47073) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2026-01-16T03:53:31.276+0100] {processor.py:829} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2026-01-16T03:53:31.278+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:31.278+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2026-01-16T03:53:31.313+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py
+[2026-01-16T03:53:31.907+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:31.907+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:31.915+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:31.915+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:31.921+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:31.921+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:31.922+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:31.922+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-16T03:53:31.931+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:31.931+0100] {dag.py:2963} INFO - Creating ORM DAG for example_sensors
+[2026-01-16T03:53:31.931+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:31.931+0100] {dag.py:3722} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2026-01-16T03:53:31.947+0100] {processor.py:179} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_sensors.py took 0.676 seconds

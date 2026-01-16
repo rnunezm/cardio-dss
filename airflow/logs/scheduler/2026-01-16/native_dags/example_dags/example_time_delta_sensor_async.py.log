@@ -1,0 +1,11 @@
+[2026-01-16T03:53:01.785+0100] {processor.py:157} INFO - Started process (PID=47048) to work on /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-01-16T03:53:01.789+0100] {processor.py:829} INFO - Processing file /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2026-01-16T03:53:01.791+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:01.790+0100] {dagbag.py:536} INFO - Filling up the DagBag from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-01-16T03:53:01.813+0100] {processor.py:839} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2026-01-16T03:53:02.368+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:02.368+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:02.379+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:02.379+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:02.386+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:02.386+0100] {manager.py:499} INFO - Created Permission View: %s
+[2026-01-16T03:53:02.387+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:02.387+0100] {dag.py:2941} INFO - Sync 1 DAGs
+[2026-01-16T03:53:02.398+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:02.398+0100] {dag.py:2963} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2026-01-16T03:53:02.398+0100] {logging_mixin.py:154} INFO - [2026-01-16T03:53:02.398+0100] {dag.py:3722} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2026-01-16T03:53:02.414+0100] {processor.py:179} INFO - Processing /Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/venv/lib/python3.9/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.630 seconds
