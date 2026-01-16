@@ -7,49 +7,49 @@ from sklearn.linear_model import LogisticRegression
 import os
 
 # -------------------
-# CONFIGURACIÓN
+# CONFIGURATION
 # -------------------
 
-CSV_FILE = '/Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/data/raw/cardio_train.csv'  # <- Cambia al path de tu CSV
+CSV_FILE = '/Users/rubennunez/Documents/Msc_Data_Sciences/DSS/Project/cardio-dss/data/raw/cardio_train.csv'  # <- Change to your CSV path
 DB_URI = 'postgresql+psycopg2://rubennunez:VeraRomina201@localhost:5432/cardio'
 TABLE_NAME = "patients"
 DECISION_TABLE = "risk_results"
 
 # -------------------
-# FUNCIONES DEL DAG
+# DAG FUNCTIONS
 # -------------------
 
 def extract(**kwargs):
     df = pd.read_csv(CSV_FILE, sep=';')
 
-    # 🔥 ESTE FORMATO ES EL CORRECTO
+    #  THIS FORMAT IS THE CORRECT ONE
     kwargs['ti'].xcom_push(
         key='raw_data',
         value=df.to_dict(orient='records')
     )
 
-    print(f"Extract completo: {len(df)} filas")
+    print(f"Extract completed: {len(df)} rows")
     return len(df)
 
 
 def transform(**kwargs):
-    """Transformar datos y convertir edad de días a años"""
+    """Transform data and convert age from days to years"""
 
     records = kwargs['ti'].xcom_pull(key='raw_data')
 
     if not records:
-        raise ValueError("raw_data está vacío")
+        raise ValueError("raw_data is empty")
 
-    # raw_data YA es lista de dicts
+    # raw_data IS ALREADY a list of dicts
     df = pd.DataFrame(records)
 
-    # Convertir a numérico
+    # Convert to numeric
     df = df.apply(pd.to_numeric, errors='coerce')
 
-    # Eliminar nulos
+    # Remove null values
     df = df.dropna()
 
-    # Edad: días → años
+    # Age: days → years
     df['age'] = (df['age'] / 365.25).round(0).astype(int)
 
     kwargs['ti'].xcom_push(
@@ -57,38 +57,35 @@ def transform(**kwargs):
         value=df.to_dict(orient='records')
     )
 
-    print(f"Transform completo: {len(df)} filas")
+    print(f"Transform completed: {len(df)} rows")
     return len(df)
-
-
-
 
 
 def load(**kwargs):
     df = pd.DataFrame(kwargs['ti'].xcom_pull(key='transformed_data'))
     engine = create_engine(DB_URI)
     df.to_sql(TABLE_NAME, engine, if_exists='replace', index=False)
-    print(f"Load completo: {len(df)} filas cargadas")
+    print(f"Load completed: {len(df)} rows loaded")
 
 
 def decision_engine(**kwargs):
-    """Motor de decisiones simple: modelo predictivo"""
+    """Simple decision engine: predictive model"""
     df = pd.DataFrame(kwargs['ti'].xcom_pull(key='transformed_data'))
     
-    # Ejemplo: predecir riesgo cardiovascular
-    X = df[['age', 'height', 'weight']]  # Ajusta según tus columnas
-    y = df['cardio']  # columna target
+    # Example: predict cardiovascular risk
+    X = df[['age', 'height', 'weight']]  # Adjust according to your columns
+    y = df['cardio']  # target column
 
     model = LogisticRegression(max_iter=1000)
     model.fit(X, y)
     df['risk_pred'] = model.predict(X)
 
-    # Guardar resultados en DB
+    # Save results to DB
     engine = create_engine(DB_URI)
     df.to_sql(DECISION_TABLE, engine, if_exists='replace', index=False, method='multi')
     
     kwargs['ti'].xcom_push(key='decision_results', value=df.to_dict())
-    print("Decision Engine completo")
+    print("Decision Engine completed")
     return df.shape[0]
 
 # -------------------
@@ -128,5 +125,5 @@ with DAG(
         python_callable=decision_engine
     )
 
-    # Orden de ejecución
+    # Execution order
     t1_extract >> t2_transform >> t3_load >> t4_decision
